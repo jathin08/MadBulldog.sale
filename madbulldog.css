@@ -1,0 +1,91 @@
+/* Resetting Default Styles */
+* {
+    margin: 1;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0c0b0b;
+    color: #333333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header h1 img {
+    width: 40px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #060505;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-color: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #100f0e; /* Adjust color as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0f0d0d; /* Adjust hover color as needed */
+}
+
+/* Section Styles */
+.section {
+    padding: 80px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
